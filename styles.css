@@ -1,0 +1,13 @@
+.overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    transition: 0.6s ease-in-out;
+}
+
+.project-container:hover .overlay {
+    background-color: rgba(14, 89, 242, 0.6);
+}
